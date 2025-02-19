@@ -10,11 +10,10 @@ from PyPDF2 import PdfReader
 
 # Initialize environment
 load_dotenv()
-pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 # Initialize Groq and Google Serper
 groq_chat = ChatGroq(temperature=0.7, 
-                    groq_api_key=os.getenv("GROQ_API_KEY"), 
+                    groq_api_key=st.secrets["GROQ_API_KEY"], 
                     model_name="deepseek-r1-distill-llama-70b")
 
 serper = GoogleSerperAPIWrapper(serper_api_key=os.getenv("SERPER_API_KEY"))
