@@ -16,7 +16,7 @@ groq_chat = ChatGroq(temperature=0.7,
                     groq_api_key=st.secrets["GROQ_API_KEY"], 
                     model_name="deepseek-r1-distill-llama-70b")
 
-serper = GoogleSerperAPIWrapper(serper_api_key=os.getenv("SERPER_API_KEY"))
+serper = GoogleSerperAPIWrapper(serper_api_key=st.secrets["SERPER_API_KEY"])
 
 # Create search tool
 search_tool = Tool(
