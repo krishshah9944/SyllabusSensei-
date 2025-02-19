@@ -6,8 +6,6 @@ from langchain.agents import Tool
 import os
 from dotenv import load_dotenv
 import tempfile
-from PIL import Image
-import pytesseract
 from PyPDF2 import PdfReader
 
 # Initialize environment
