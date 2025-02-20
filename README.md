@@ -66,10 +66,10 @@ streamlit run app.py
 
 ## 📌 Usage
 
--**1️⃣ Open the application.
--**2️⃣ Enter course details such as subject, duration, objectives, and teaching methods.
--**3️⃣ Click on **"Generate Syllabus"** to create a customized syllabus.
--**4️⃣ View, edit, or download the structured syllabus as needed.
+-**1️⃣** Open the application.
+-**2️⃣** Enter course details such as subject, duration, objectives, and teaching methods.
+-**3️⃣** Click on **"Generate Syllabus"** to create a customized syllabus.
+-**4️⃣** View, edit, or download the structured syllabus as needed.
 
 ## 🌐 Demo
 
