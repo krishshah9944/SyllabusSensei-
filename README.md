@@ -63,14 +63,15 @@ GROQ_API_KEY=your_groq_api_key_here
 ```bash
 streamlit run app.py
 ```
+## 📌 Usage  
 
-## 📌 Usage
+1️⃣ Open the application.  
 
--**1️⃣** Open the application.
--**2️⃣** Enter course details such as subject, duration, objectives, and teaching methods.
--**3️⃣** Click on **"Generate Syllabus"** to create a customized syllabus.
--**4️⃣** View, edit, or download the structured syllabus as needed.
+2️⃣ Enter course details such as subject, duration, objectives, and teaching methods.  
 
+3️⃣ Click on "Generate Syllabus" to create a customized syllabus.  
+
+4️⃣ View, edit, or download the structured syllabus as needed.  
 ## 🌐 Demo
 
 Check out the live demo here: [SyllabusSensei](https://syllabus-sensei.streamlit.app)
